@@ -59,3 +59,8 @@ a:hover {
   top: 100%;
   left: 0;
 }
+
+.dropRight {
+  top: 0;
+  left: 100%;
+}
