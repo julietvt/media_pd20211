@@ -6,3 +6,56 @@ body {
   margin: 0;
   padding: 0;
 }
+
+a,
+a:visited,
+a:active,
+a:link,
+a:hover {
+  text-decoration: none;
+}
+
+.navContainer {
+  margin-bottom: 50px;
+}
+
+.ulContainer {
+}
+
+.navItem {
+  display: inline-block;
+  width: 200px;
+  background-color: blue;
+  color: white;
+  text-align: center;
+  border: 1px solid darkblue;
+  box-sizing: border-box;
+  padding: 10px 20px;
+}
+
+.navItem:hover {
+  background-color: darkblue;
+}
+
+.navItemContainer {
+  display: inline-block;
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+}
+
+.navItemContainer:hover > .submenu {
+  display: block;
+}
+
+.submenuItem {
+  display: list-item;
+}
+
+.dropDown {
+  top: 100%;
+  left: 0;
+}
